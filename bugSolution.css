@@ -1,0 +1,1 @@
+To fix this issue, ensure that the parent container has a defined width, either explicitly (e.g., `width: 500px;`) or implicitly (e.g., through its content). This gives the percentage values in `calc()` a clear reference point. Alternatively, avoid mixing units in `calc()` if possible, opting for a single unit throughout your calculation.
